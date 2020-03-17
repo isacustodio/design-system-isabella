@@ -1,0 +1,33 @@
+---
+global:
+  type: unit
+  category: typography
+
+props:
+  - name: font-size-xs
+    value: '12px'
+    category: font-size
+  
+  - name: font-size-sm
+    value: '16px'
+    category: font-size
+
+  - name: font-size-md
+    value: '24px'
+    category: font-size
+
+  - name: font-size-lg
+    value: '32px'
+    category: font-size
+
+  - name: font-size-xl
+    value: '48px'
+    category: font-size
+
+  - name: font-size-xxl
+    value: '64px'
+    category: font-size
+
+  - name: font-size-xxxl
+    value: '80px'
+    category: font-size

@@ -1,0 +1,67 @@
+---
+global:
+  type: color
+  category: category-color
+
+imports:
+- ./aliases.yml
+
+props:
+  - name: color-brand-primary-lightest
+    value: '{!color-brand-primary-lightest}'
+    meta:
+      friendlyName: Color Brand Primary Lightest
+    category: success-color
+
+  - name: color-brand-primary-light
+    value: '{!color-brand-primary-light}'
+    meta:
+      friendlyName: Color Brand Primary Light
+    category: success-color
+
+  - name: color-brand-primary-medium
+    value: '{!color-brand-primary-medium}'
+    meta:
+      friendlyName: Color Brand Primary Medium
+    category: success-color
+    
+  - name: color-brand-primary-dark
+    value: '{!color-brand-primary-dark}'
+    meta:
+      friendlyName: Color Brand Primary Dark
+    category: success-color
+
+  - name: color-brand-primary-darkest
+    value: '{!color-brand-primary-darkest}'
+    meta:
+      friendlyName: Color Brand Primary Darkest
+    category: success-color
+
+  - name: color-brand-secondary-lightest
+    value: '{!color-brand-secondary-lightest}'
+    meta:
+      friendlyName: Color Brand Pecondary Lightest
+    category: success-color
+  - name: color-brand-secondary-light
+    value: '{!color-brand-secondary-light}'
+    meta:
+      friendlyName: Color Brand Pecondary Light
+    category: success-color
+
+  - name: color-brand-secondary-medium
+    value: '{!color-brand-secondary-medium}'
+    meta:
+      friendlyName: Color Brand Pecondary Medium
+    category: success-color
+
+  - name: color-brand-secondary-dark
+    value: '{!color-brand-secondary-dark}'
+    meta:
+      friendlyName: Color Brand Pecondary Dark
+    category: success-color
+
+  - name: color-brand-secondary-darkest
+    value: '{!color-brand-secondary-darkest}'
+    meta:
+      friendlyName: Color Brand Pecondary Darkest
+    category: success-color

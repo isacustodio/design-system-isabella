@@ -1,0 +1,15 @@
+---
+global:
+  type: string
+  category: typography
+
+props:
+  - name: font-family-highlight
+    value: "Archivo"
+    type: string
+    category: font-family
+  
+  - name: font-family-base
+    value: "Archivo"
+    type: string
+    category: font-family

@@ -1,0 +1,28 @@
+---
+global:
+  type: unit
+  category: spacing
+
+imports:
+- ./aliases.yml
+
+props:
+  - name: spacing-squish-xs
+    value: '{!spacing-xxxs} {!spacing-xxs}'
+    category: spacing-squish
+
+  - name: spacing-squish-sm
+    value: '{!spacing-xxs} {!spacing-xs}'
+    category: spacing-squish
+
+  - name: spacing-squish-md
+    value: '{!spacing-xs} {!spacing-sm}'
+    category: spacing-squish
+
+  - name: spacing-squish-lg
+    value: '{!spacing-xs} {!spacing-md}'
+    category: spacing-squish
+
+  - name: spacing-squish-xl
+    value: '{!spacing-md} {!spacing-lg}'
+    category: spacing-squish

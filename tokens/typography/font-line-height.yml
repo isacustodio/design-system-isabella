@@ -1,0 +1,48 @@
+##
+## The rule is the line-height is 8px more than the font-line-height
+##
+---
+global:
+  type: unit
+  category: typography
+
+props:
+  - name: font-line-height-xxxs
+    value: '12px'
+    category: font-line-height
+  
+  - name: font-line-height-xxs
+    value: '16px'
+    category: font-line-height
+
+  - name: font-line-height-xs
+    value: '20px'
+    category: font-line-height
+
+  - name: font-line-height-sm
+    value: '24px'
+    category: font-line-height
+
+  - name: font-line-height-md
+    value: '28px'
+    category: font-line-height
+
+  - name: font-line-height-lg
+    value: '32px'
+    category: font-line-height
+
+  - name: font-line-height-xl
+    value: '36px'
+    category: font-line-height
+
+  - name: font-line-height-xxl
+    value: '48px'
+    category: font-line-height
+
+  - name: font-line-height-xxxl
+    value: '64px'
+    category: font-line-height
+
+  - name: font-line-height-ul
+    value: '80px'
+    category: font-line-height

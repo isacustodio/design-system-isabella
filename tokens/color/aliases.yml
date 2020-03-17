@@ -1,0 +1,38 @@
+---
+global  : 
+  type    : aliases
+  category: pallete-color
+
+aliases: 
+  # Brand Colors
+  ## Primary
+  color-brand-primary-lightest: '#EEEEEE'
+  color-brand-primary-light   : '#CDCDCD'
+  color-brand-primary-medium  : '#000000'
+  color-brand-primary-dark    : '#000000'
+  color-brand-primary-darkest : '#000000'
+  ## Secondary
+  color-brand-secondary-lightest: '#EEEEEE'
+  color-brand-secondary-light   : '#CDCDCD'
+  color-brand-secondary-medium  : '#000000'
+  color-brand-secondary-dark    : '#000000'
+  color-brand-secondary-darkest : '#000000'
+
+  # Global Colors
+  color-attention-lightest: '#FFD9BF'
+  color-attention-light   : '#FFA160'
+  color-attention-medium  : '#FF6D00'
+  color-attention-dark    : '#E05800'
+  color-attention-darkest : '#C24300'
+
+  color-success-lightest: '#BFFFD2'
+  color-success-light   : '#60F391'
+  color-success-medium  : '#00C853'
+  color-success-dark    : '#00B048'
+  color-success-darkest : '#00983D'
+
+  color-neutral-lightest: '#FFFFFF'
+  color-neutral-light   : '#F0F2F7'
+  color-neutral-medium  : '#D4D7DD'
+  color-neutral-dark    : '#60646C'
+  color-neutral-darkest : '#000000'

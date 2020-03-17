@@ -1,0 +1,12 @@
+---
+global:
+  type: typography
+  category: all
+
+imports:
+  - ./font-family.yml
+  - ./font-line-height.yml
+  - ./font-size.yml
+  - ./font-weight.yml
+  - ./text-decoration.yml
+  - ./text-transform.yml

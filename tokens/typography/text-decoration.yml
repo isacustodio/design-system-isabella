@@ -1,0 +1,15 @@
+---
+global:
+  type: unit
+  category: typography
+
+props:
+  - name: text-underline
+    value: "underline"
+    type: unit
+    category: typography
+  
+  - name: text-strike
+    value: "line-through"
+    type: unit
+    category: typography

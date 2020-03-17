@@ -1,0 +1,99 @@
+---
+global:
+  type: color
+  category: category-color
+
+imports:
+- ./aliases.yml
+
+props:
+  - name: color-attention-lightest
+    value: '{!color-attention-lightest}'
+    meta:
+      friendlyName: Color Attention Lightest
+    category: attention-color 
+  
+  - name: color-attention-light
+    value: '{!color-attention-light}'
+    meta:
+      friendlyName: Color Attention Light
+    category: attention-color 
+  
+  - name: color-attention-medium
+    value: '{!color-attention-medium}'
+    meta:
+      friendlyName: Color Attention Medium
+    category: attention-color 
+
+  - name: color-attention-dark
+    value: '{!color-attention-dark}'
+    meta:
+      friendlyName: Color Attention Dark
+    category: attention-color 
+  
+  - name: color-attention-darkest
+    value: '{!color-attention-darkest}'
+    meta:
+      friendlyName: Color Attention Darkest
+    category: attention-color 
+  
+  - name: color-success-lightest
+    value: '{!color-success-lightest}'
+    meta:
+      friendlyName: Color Success Lightest
+    category: success-color 
+
+  - name: color-success-light
+    value: '{!color-success-light}'
+    meta:
+      friendlyName: Color Success Light
+    category: success-color 
+  
+  - name: color-success-medium
+    value: '{!color-success-medium}'
+    meta:
+      friendlyName: Color Success Medium
+    category: success-color 
+  
+  - name: color-success-dark
+    value: '{!color-success-dark}'
+    meta:
+      friendlyName: Color Success Dark
+    category: success-color 
+
+  - name: color-success-darkest
+    value: '{!color-success-darkest}'
+    meta:
+      friendlyName: Color Success Darkest
+    category: success-color 
+  
+  - name: color-neutral-lightest
+    value: '{!color-neutral-lightest}'
+    meta:
+      friendlyName: Color Neutral Lightest
+    category: neutral-color 
+  
+  - name: color-neutral-light
+    value: '{!color-neutral-light}'
+    meta:
+      friendlyName: Color Neutral Light
+    category: neutral-color 
+
+  - name: color-neutral-medium
+    value: '{!color-neutral-medium}'
+    meta:
+      friendlyName: Color Neutral Medium
+    category: neutral-color 
+  
+  - name: color-neutral-dark
+    value: '{!color-neutral-dark}'
+    meta:
+      friendlyName: Color Neutral Dark
+    category: neutral-color 
+  
+  - name: color-neutral-darkest
+    value: '{!color-neutral-darkest}'
+    meta:
+      friendlyName: Color Neutral Darkest
+    category: neutral-color 
+

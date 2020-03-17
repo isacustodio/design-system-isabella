@@ -1,0 +1,11 @@
+---
+global:
+  type: unit
+  category: typography
+
+props:
+  - name: text-uppercase
+    value: "uppercase"
+    type: unit
+    category: typography
+  
