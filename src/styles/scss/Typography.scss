@@ -1,0 +1,38 @@
+@import './tokens.scss';
+
+@mixin base-heading($size) {
+    font-size: $size;
+    font-family: $font-family-highlight, Roboto;
+    font-weight: $font-weight-bold;
+    color: $color-neutral-darkest;
+    margin:0 0 $spacing-stack-xxs 0;
+}
+
+.heading-lg{
+    @include base-heading($font-size-xxxl);
+}
+.heading-md{
+    @include base-heading($font-size-xl);
+}
+.heading-sm{
+    @include base-heading($font-size-lg);
+}
+.heading-xs{
+    @include base-heading($font-size-md);
+}
+
+.subtitle{
+    font-size: $font-size-md;
+    font-family: $font-family-highlight, Roboto;
+    font-weight: $font-weight-medium;
+    color: $color-neutral-dark;
+    margin:0 0 $spacing-stack-xs 0;
+}
+.paragraph{
+    font-family: $font-family-highlight;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-xs;
+    color: $global-color-neutrals-dark;
+    margin:0 0 $spacing-stack-md 0;
+    line-height: $font-line-height-xs;
+}

@@ -3,22 +3,21 @@
 @mixin base-button() {
     min-width: 108px;
     height: 48px;
-    padding: 16px 24px;
+    padding: 14px 24px;
     font-size: $font-size-sm;
     border-radius: $border-radius-none;
-    font-family: $font-family-highlight;
+    border: $border-width-thick $border-style-default $color-brand-primary-medium;
+    font-family: $font-family-highlight, Roboto;
     font-weight: $font-weight-medium;
     color: $color-brand-primary-lightest;
     background-color: $color-brand-primary-medium;
-    cursor: pointer;
-    position: relative;           
+    cursor: pointer;       
 }
-
 
 @mixin button-hover(){
     background-color: $color-brand-primary-lightest;
     color: $color-brand-primary-medium;
-    border: $border-width-thick solid $color-brand-primary-medium;
+    border: $border-width-thick $border-style-default $color-brand-primary-medium;
 }
 
 .primary-button{

@@ -22,7 +22,9 @@
     "eject": "react-scripts eject",
     "build": "sass src/styles/scss:src/styles/css && react-scripts build",
     "theo": "theo tokens/tokens.yml --format scss,cssmodules.css --dest .",
-    "sass": "sass --watch src/styles/scss:src/styles/css"
+    "sass": "sass --watch src/styles/scss:src/styles/css",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,8 +42,20 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-a11y": "^5.3.14",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/react": "^5.3.17",
     "auto": "^9.18.0",
     "node-sass": "^4.13.1",
-    "prettier": "^1.19.1"
-  }
+    "prettier": "^1.19.1",
+    "storybook-chromatic": "^3.5.2"
+  },
+  "author": "Isabella Bertini <i_s_abella@yahoo.com.br>",
+  "repository": "https://github.com/isacustodio/project-test-meiuca",
+  "description": "Teste sobre Design System proposto pela Meiuca",
+  "main": "dist/index.js"
 }

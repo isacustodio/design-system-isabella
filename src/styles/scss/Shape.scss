@@ -1,0 +1,20 @@
+@import './tokens.scss';
+
+.shape{
+    width: 300px;
+    height: 427px;
+    box-sizing: border-box;  
+    border-radius: $border-radius-none;
+    border: $border-width-thick solid $global-color-neutrals-dark;        
+    background-color: $color-neutral-lightest;  
+    padding: $spacing-inset-lg;
+    position:relative;
+    p{
+        overflow:hidden;
+        max-height:180px;
+    }
+    button{
+        position: absolute;
+        bottom: $spacing-inset-lg;
+    }
+}

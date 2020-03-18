@@ -1,5 +1,5 @@
 
-$border-style-default: "solid";
+$border-style-default: solid;
 $border-width-none: 0;
 $border-width-thin: 1px;
 $border-width-thick: 2px;
@@ -33,6 +33,7 @@ $color-neutral-light: #F0F2F7;
 $color-neutral-medium: #D4D7DD;
 $color-neutral-dark: #60646C;
 $color-neutral-darkest: #000000;
+$global-color-neutrals-dark: #6C7078;
 $opacity-semi-opaque: 0.8;
 $opacity-intense: 0.64;
 $opacity-medium: 0.32;
@@ -75,8 +76,8 @@ $spacing-stack-lg: 48px;
 $spacing-stack-xl: 72px;
 $spacing-stack-xxl: 120px;
 $spacing-stack-xxxl: 160px;
-$font-family-highlight: "Archivo";
-$font-family-base: "Archivo";
+$font-family-highlight: 'Archivo', sans-serif;
+$font-family-base: 'Archivo', sans-serif;
 $font-line-height-xxxs: 12px;
 $font-line-height-xxs: 16px;
 $font-line-height-xs: 20px;

@@ -1,0 +1,20 @@
+.shape {
+  width: 300px;
+  height: 427px;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 2px solid #6C7078;
+  background-color: #FFFFFF;
+  padding: 32px;
+  position: relative;
+}
+.shape p {
+  overflow: hidden;
+  max-height: 180px;
+}
+.shape button {
+  position: absolute;
+  bottom: 32px;
+}
+
+/*# sourceMappingURL=Shape.css.map */
