@@ -24,7 +24,8 @@
     "theo": "theo tokens/tokens.yml --format scss,cssmodules.css --dest .",
     "sass": "sass --watch src/styles/scss:src/styles/css",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs"
   },
   "eslintConfig": {
     "extends": "react-app"
