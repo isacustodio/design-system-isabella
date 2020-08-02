@@ -1,13 +1,17 @@
+# Design System Isabella <3
+
 Esse projeto foi criado como teste para Meiuca
 
-Para iniciar:
+## Para iniciar:
 
-##npm install
+```
+npm install
+```
 
+## Pensando em uma melhor visualização foi adicionado Storybook ao projeto, para rodar:
 
-Pensando em uma melhor visualização foi adicionado Storybook ao projeto, para rodar:
-
-##npm run storybook
-
+```
+npm run storybook
+```
 
 Obrigada!
