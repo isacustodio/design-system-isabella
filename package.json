@@ -9,7 +9,7 @@
     "gulp": "^4.0.2",
     "gulp-theo": "^2.0.1",
     "loader": "^2.1.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
@@ -51,7 +51,7 @@
     "@storybook/preset-create-react-app": "^2.0.0",
     "@storybook/react": "^5.3.17",
     "auto": "^9.18.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prettier": "^1.19.1",
     "storybook-chromatic": "^3.5.2"
   },
